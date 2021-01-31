@@ -1,0 +1,27 @@
+{
+  "name": "TDD_NodeJS_Mocha_Chai",
+  "version": "1.0.0",
+  "description": "Learning TDD with Node JS, Mocha, Chai and Travis CI",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YohannesDK/TDD_NodeJS_Mocha_Chai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YohannesDK/TDD_NodeJS_Mocha_Chai/issues"
+  },
+  "homepage": "https://github.com/YohannesDK/TDD_NodeJS_Mocha_Chai#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1",
+    "request": "^2.88.2"
+  }
+}
