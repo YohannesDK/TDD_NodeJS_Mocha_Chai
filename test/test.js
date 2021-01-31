@@ -17,3 +17,16 @@ describe("Test 1", () =>{
     expect(body.response).to.equal("Yohannes learning Ci with Travis")
   })
 })
+
+describe("Test 2", () =>{
+  const body = {}
+  before((done) => {
+    get("http://localhost:3000/helloworld", (error, res) => {
+      body.response = res.body
+      done()
+    })
+  })
+  it("should return hello world", () => {
+    expect(body.response).to.equal("helloworld")
+  })
+})
