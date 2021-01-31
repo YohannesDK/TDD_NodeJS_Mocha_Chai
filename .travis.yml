@@ -3,7 +3,8 @@ language: node_js
 node_js:
   - "stable"
 
-cache:
+install:
+  - npm install
 
 directories:
   - "node_modules"
